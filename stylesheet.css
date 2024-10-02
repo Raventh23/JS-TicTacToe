@@ -1,0 +1,30 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  div .gb{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+  }
+  .bx-x {
+    font-size: 95px;
+    color: red;
+  }
+  .bx-radio-circle{
+    font-size: 95px;
+    color: blue;
+  }
+  
+  .tile {
+    border: 3px solid black;
+  }
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+.board{
+  border: 3px solid black;
+}
