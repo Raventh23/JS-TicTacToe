@@ -51,6 +51,7 @@ function winner(){
         tile.innerHTML = '';
         tile.dataset.clicked = 'false';
         tile.dataset.x = 'false';
+        tile.dataset.o = 'false'
       });
       turn = 'P1';
       document.querySelector(".turn").innerHTML = "P1's Turn";
